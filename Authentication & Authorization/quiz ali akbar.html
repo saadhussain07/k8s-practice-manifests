@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: grid;
+            grid-template-areas:
+                "header header header"
+                "left main right"
+                "footer footer footer";
+            grid-template-columns: 200px 1fr 200px;
+            grid-template-rows: 80px 1fr 60px;
+            height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        nav.left-sidebar {
+            grid-area: left;
+            background-color: #f4f4f4;
+            padding: 15px;
+        }
+
+        main {
+            grid-area: main;
+            padding: 15px;
+            background-color: #fff;
+        }
+
+        nav.right-sidebar {
+            grid-area: right;
+            background-color: #f4f4f4;
+            padding: 15px;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color:red;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>The University of lahore</header>
+
+    <nav class="left-sidebar">
+        <h3>Left Sidebar</h3>
+        <ul>
+            <li>Students</li>
+            <li>Enrollments</li>
+            <li>Faculty</li>
+            <li>Transport</li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Main Content</h2>
+        <p>The University of Lahore, Sargodha Campus spreading over an area of 23 acres, was established in 2012. It has 6 faculties, 14 departments, offering more than 40 BS and MPhil programs. Its faculty strength is more than 150, and 47 of them possess doctorate degrees. The student body of this campus is more than 300</p>
+    </main>
+
+    <nav class="right-sidebar">
+        <h3>Right Sidebar</h3>
+        <ol>
+            <li>Sir yasir ghayoor</li>
+            <li>Sir Ali Yaqoob</li>
+            <li>Sir Ray Ali</li>
+            <li>Sir usman Nawaz Bhatti</li>
+        </ol>
+    </nav>
+
+    <footer>
+       <div class="footer content" 
+        <p>Main lahore road </p> 
+        <p>contact us  03081302902</p>
+   </footer>
+</body>     
+</html>

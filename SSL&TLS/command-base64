@@ -1,0 +1,7 @@
+Convert-FileToBase64 "C:\Users\Administrator\Desktop\DevOps\Kubernetes\Practice\SSL&TLS Cert\saacert.txt"
+
+
+
+"Convert-Base64ToFile `
+>>     "C:\Users\Administrator\Desktop\DevOps\Kubernetes\Practice\SSL&TLS Cert\saacert.txt" `
+>>     "C:\Users\Administrator\Desktop\DevOps\Kubernetes\Practice\SSL&TLS Cert\saad_decoded.csr""

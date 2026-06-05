@@ -1,0 +1,1 @@
+[System.IO.File]::WriteAllBytes("C:\Users\Administrator\Desktop\DevOps\Kubernetes\Practice\Cluster\saad_decoded.crt",[System.Convert]::FromBase64String("<BASE64_STRING>"))

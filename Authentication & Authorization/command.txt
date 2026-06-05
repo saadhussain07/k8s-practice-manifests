@@ -1,0 +1,1 @@
+ Convert-FileToBase64 "C:\Users\Administrator\Desktop\DevOps\Kubernetes\Practice\Authentication & Authorization\saad.csr"
